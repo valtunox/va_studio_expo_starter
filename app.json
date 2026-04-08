@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "VA Studio Mobile",
+    "slug": "va-studio-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "vastudio",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
